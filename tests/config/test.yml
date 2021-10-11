@@ -1,0 +1,27 @@
+---
+account:
+  Brokerage: 100000
+  Roth IRA: 30000
+  401k: 80000
+  HSA: 20000
+
+allocation:
+  Stock (D): 35
+  Bonds (D): 30
+  Stock (I): 25
+  Bonds (I): 10
+
+placement:
+  Bonds (D):
+    - HSA
+    - 401k
+  Bonds (I):
+    - HSA
+    - 401k
+  Stock (I):
+    - Brokerage
+  Stock (D):
+    - HSA
+    - Roth IRA
+    - 401k
+    - Brokerage
