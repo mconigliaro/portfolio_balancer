@@ -10,10 +10,10 @@ authors = ["Mike Conigliaro <mike@conigliaro.org>"]
 homepage = "https://github.com/mconigliaro/portfolio_balancer"
 
 [tool.poetry.dependencies]
-python = ">=3.8,<3.10"
+python = ">=3.8,<4.0"
 
 click = "^8.0"
-pyyaml = "^ 5.4"
+pyyaml = "^5.4"
 rich = "^10.12"
 
 [tool.poetry.dev-dependencies]
